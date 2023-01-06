@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "abhi": "nodemon ./bin/www",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
